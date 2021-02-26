@@ -1,0 +1,128 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #215f00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e4e4d9,
+    #215f00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e4e4d9,
+    #215f00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Roboto", sans-serif;
+}
+
+.loginPageCss,
+.signUpPageCss {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 10px 10px 3px black;
+  border: 2px solid rgb(36, 3, 3);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 180px;
+  background-image: url("https://source.unsplash.com/random/800x600");
+  background-repeat: no-repeat;
+  background-repeat: cover;
+  background-size: 100%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgb(156, 151, 151);
+}
+.input {
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(201, 201, 17);
+  background-color: rgb(228, 222, 222);
+}
+
+.input:hover {
+  background-color: rgb(23, 230, 245);
+}
+
+.button {
+  background-color: rgb(55, 58, 216);
+  color: white;
+  border-radius: 5px;
+  width: 18%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin-left: -10px;
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgb(20, 20, 58);
+}
+
+.button:hover {
+  background-color: rgb(238, 215, 13);
+  color: black;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(139, 32, 32);
+  color: white;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: rgb(55, 58, 216);
+  color: white;
+  border-radius: 5px;
+  width: 18%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgb(20, 20, 58);
+}
+
+lable {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1a3106;
+  text-shadow: 0 1px 0 #8b8b8b, 0 2px 0 #a3a0a0, 0 3px 0 #a3a0a0,
+    0 4px 0 #a3a0a0, 0 30px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1.5px;
+}
+
+.highlightme {
+  background-color: #70ccaa;
+}
+
+.colorLink {
+  background-color: #ecc900;
+}
+
+.colorLink:hover {
+  background-color: rgb(161, 37, 37);
+}
+
+/* .clicking {
+  background-color: rgb(219, 151, 4);
+  color: rgb(51, 45, 45);
+  border-radius: 5px;
+  width: 35%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgb(20, 20, 58);
+}
+
+.clicking:hover {
+  background-color: rgb(139, 32, 32);
+  color: white;
+  border-radius: 10px;
+} */
